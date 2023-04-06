@@ -12,7 +12,7 @@ const Die = (props) => {
     useEffect(()=>{
         console.log("use effect triggered!")
         rollDie();
-    },[])
+    },[props.numSides])
    
     return(
         <div>
