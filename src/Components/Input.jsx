@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Input = (props) => {
+const Input = () => {
     const [firstName, setFirstName] = useState("");
     const [firstNameError, setFirstNameError] = useState(true);
 
